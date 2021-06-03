@@ -6,7 +6,7 @@ from sklearn.linear_model import LinearRegression
 
 #about the dataset
 ds = pd.read_csv("http://bit.ly/w-data")
-print("First 5 enteries:\n{}" .format(ds.head()))
+print("First 5 entries:\n{}" .format(ds.head()))
 print("\n(rows,columns): {}".format(ds.shape))
 print("\nDescription about the dataset:\n{}".format(ds.describe()))
 
